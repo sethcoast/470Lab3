@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f1b63eb-9e2a-4c6f-9711-8d9aa8629c83" name="Default Changelist" comment="" />
+    <list default="true" id="4f1b63eb-9e2a-4c6f-9711-8d9aa8629c83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -30,10 +38,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BayesWorld">
+    <configuration name="BayesWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server.BayesWorld" />
+      <module name="lab3" />
+      <option name="PROGRAM_PARAMETERS" value="mundo_maze.txt 0.9 0.8 unknown " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="theRobot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Robot.theRobot" />
       <module name="lab3" />
+      <option name="PROGRAM_PARAMETERS" value="mundo_maze.txt 0.9 0.8 unknown " />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Robot.*" />
@@ -44,8 +67,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.theRobot" />
+      <item itemvalue="Application.BayesWorld" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BayesWorld" />
         <item itemvalue="Application.theRobot" />
       </list>
     </recent_temporary>
@@ -60,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573169033730</updated>
-      <workItem from="1573169037694" duration="681000" />
+      <workItem from="1573169037694" duration="1715000" />
     </task>
     <servers />
   </component>
@@ -77,5 +105,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Robot/theRobot.java</url>
+          <line>477</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Server/BayesWorld.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

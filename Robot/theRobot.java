@@ -1,4 +1,4 @@
-package Robot;
+
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.Color;
@@ -368,7 +368,6 @@ public class theRobot extends JFrame {
     // initializes the probabilities of where the AI is
     void initializeProbabilities() {
         probs = new double[mundo.width][mundo.height];
-        Vs = new double[mundo.width][mundo.height];
         // if the robot's initial position is known, reflect that in the probability map
         if (knownPosition) {
             for (int y = 0; y < mundo.height; y++) {
@@ -402,7 +401,8 @@ public class theRobot extends JFrame {
         
         myMaps.updateProbs(probs);
     }
-      // TODO: update the probabilities of where the AI thinks it is based on the action selected and the new sonar readings
+    
+    // TODO: update the probabilities of where the AI thinks it is based on the action selected and the new sonar readings
     //       To do this, you should update the 2D-array "probs"
     // Note: sonars is a bit string with four characters, specifying the sonar reading in the direction of North, South, East, and West
     //       For example, the sonar string 1001, specifies that the sonars found a wall in the North and West directions, but not in the South and East directions
@@ -412,9 +412,7 @@ public class theRobot extends JFrame {
         myMaps.updateProbs(probs); // call this function after updating your probabilities so that the
                                    //  new probabilities will show up in the probability map on the GUI
     }
-
-
-
+    
     // This is the function you'd need to write to make the robot move using your AI;
     // You do NOT need to write this function for this lab; it can remain as is
     int automaticAction() {

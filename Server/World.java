@@ -1,4 +1,3 @@
-package Server;
 import java.awt.*;
 import java.util.*;
 import java.awt.event.*;
